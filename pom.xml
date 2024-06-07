@@ -10,14 +10,15 @@
 	</parent>
 
 	<groupId>personal.MapleChenX</groupId>
-	<artifactId>THE-ALL</artifactId>
+	<artifactId>Ultimate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>back-end-LSP</module>
+		<module>platform</module>
         <module>IM-service</module>
 		<module>IM-TCP</module>
+		<module>File-transfer</module>
 	</modules>
 
 <!--	在父pom直接依赖，子pom不需要再依赖-->

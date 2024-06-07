@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>personal.MapleChenX</groupId>
-        <artifactId>THE-ALL</artifactId>
+        <artifactId>Ultimate</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 

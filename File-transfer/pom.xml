@@ -7,10 +7,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>IM-service</artifactId>
+    <artifactId>File-transfer</artifactId>
     <packaging>jar</packaging>
 
-    <name>IM-service</name>
+    <name>File-transfer</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -24,25 +24,5 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-
-        <!--    Mybatis-Plus框架    -->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.5</version>
-        </dependency>
-        <!--    mybatis-spring    -->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-spring</artifactId>
-            <version>3.0.3</version>
-        </dependency>
-        <!--    MySQL驱动    -->
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-
     </dependencies>
 </project>
