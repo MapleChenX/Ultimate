@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LSP" />
+        <module name="File-transfer" />
         <module name="security" />
         <module name="IM-service" />
         <module name="IM-TCP" />
+        <module name="platform" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,11 +22,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="File-transfer" options="-parameters" />
       <module name="IM-TCP" options="-parameters" />
       <module name="IM-service" options="-parameters" />
       <module name="LSP" options="-parameters" />
       <module name="THE-ALL" options="" />
       <module name="back-end-LSP" options="-parameters" />
+      <module name="platform" options="-parameters" />
       <module name="security" options="-parameters" />
     </option>
   </component>
