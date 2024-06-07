@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="LSP" />
+        <module name="security" />
+        <module name="IM-service" />
+        <module name="IM-TCP" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="back-end (1)" target="21" />
+      <module name="back-end-LSP" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IM-TCP" options="-parameters" />
+      <module name="IM-service" options="-parameters" />
+      <module name="LSP" options="-parameters" />
+      <module name="THE-ALL" options="" />
+      <module name="back-end-LSP" options="-parameters" />
+      <module name="security" options="-parameters" />
+    </option>
+  </component>
+</project>

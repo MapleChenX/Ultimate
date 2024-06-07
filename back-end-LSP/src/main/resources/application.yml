@@ -1,0 +1,59 @@
+
+spring:
+  servlet:
+    multipart:
+        max-file-size: 1024MB
+        max-request-size: 1024MB
+  application:
+    name: Large_Social_Platform
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/large_social_platform
+    username: root
+    password: 111111
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    addresses: localhost
+    username: guest
+    password: guest
+    virtual-host: /
+  mail:
+    host: smtp.163.com
+    username: maplechenx@163.com
+    password: IADEWGWLLANKMJGJ
+  minio:
+    endpoint: 'http://localhost:9000'
+    username: 'minioadmin'
+    password: 'minioadmin'
+    bucket: 'lsp'
+    bucket4file: 'lsp-file'
+
+
+
+
+const:
+  default:
+    user:
+      username: "理塘最强伝说と绝凶の猛虎纯真丁一郎"
+      role: 2
+      avatar: "none"
+
+    jwt:
+      secret_key: "MapleChenX"
+      expire: 24
+
+    cors:
+      origin: "*" #通知浏览器允许的前端站点
+      credentials: false  #通知浏览器是否允许发送Cookie
+      methods: "GET, POST"  #通知浏览器允许的请求方法
+
+    codeVerifyTime: 10 #min
+
+    flowLimit: #60s内最多100次请求
+      freq: 100 #100次
+      countPeriod: 600 #60s
+      blockTime: 60 #60s
+    fileUploadPath:
+      temp: x://lsp/temp
+      fullFile: x://lsp/fullFile
+      video: x://lsp/video
